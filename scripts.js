@@ -52,7 +52,7 @@ swap.addEventListener('click', () => {
     let temp = from.value;
     from.value = to.value;
     to.value = temp;
-    convertCurrency();
+    currencyConvert();
 
 
 });
